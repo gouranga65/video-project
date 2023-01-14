@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.button {
+  height: 40px;
+  width: 70px;
+  background-color: transparent;
+  border: 2px solid black;
+  margin-top: 33em;
+  border-radius: 40px;
+  position: relative;
+  bottom: 12px;
+  left: 10px;
+}
+.backVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.subBtn {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  cursor: pointer;
+  left: 5px;
+}
+.toggle {
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  cursor: pointer;
+  transition: 2ms;
+}
+@media (min-aspect-raio: 16/9) {
+  .backVideo {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-raio: 16/9) {
+  .backVideo {
+    width: auto;
+    height: 100%;
+  }
+}

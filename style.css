@@ -28,6 +28,7 @@
   top: 5px;
   cursor: pointer;
   left: 5px;
+  transition: 4ms;
 }
 .toggle {
   left: 50%;
@@ -38,7 +39,15 @@
   position: absolute;
   top: 5px;
   cursor: pointer;
-  transition: 2ms;
+  transition: 4ms;
+}
+.text{
+  position: absolute;
+  top: 48%;
+  left: 40%;
+  color: antiquewhite;
+  font-size: 50px;
+  letter-spacing: 2px;
 }
 @media (min-aspect-raio: 16/9) {
   .backVideo {
